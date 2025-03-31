@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F64957592D98C5E200ECF9BB /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = F64957582D98C5E200ECF9BB /* DotLottie */; };
+		F649575B2D98C60B00ECF9BB /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = F649575A2D98C60B00ECF9BB /* animation.json */; };
+		F6F5560B2D948D13003A5C76 /* PetTranslatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F5560A2D948D13003A5C76 /* PetTranslatorApp.swift */; };
+		F6F5560D2D948D13003A5C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F5560C2D948D13003A5C76 /* ContentView.swift */; };
+		F6F5560F2D948D15003A5C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F5560E2D948D15003A5C76 /* Assets.xcassets */; };
+		F6F556122D948D15003A5C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F556112D948D15003A5C76 /* Preview Assets.xcassets */; };
+		F6F5561A2D94B8FF003A5C76 /* KonkhmerSleokchher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6F556192D94B8FF003A5C76 /* KonkhmerSleokchher-Regular.ttf */; };
+		F6F5561D2D94BCB1003A5C76 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F5561C2D94BCB1003A5C76 /* CustomFont.swift */; };
+		F6F556A32D9534C6003A5C76 /* RecordingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F556A22D9534C6003A5C76 /* RecordingScreen.swift */; };
+		F6F556A52D953856003A5C76 /* ProcessingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F556A42D953856003A5C76 /* ProcessingScreen.swift */; };
+		F6F556A72D9538A8003A5C76 /* CompletionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F556A62D9538A8003A5C76 /* CompletionScreen.swift */; };
+		F6F556A92D9715BE003A5C76 /* ClickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F556A82D9715BE003A5C76 /* ClickerView.swift */; };
+		F6F556AB2D971602003A5C76 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F556AA2D971602003A5C76 /* TabBarView.swift */; };
+		F6F556AD2D97165D003A5C76 /* TranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F556AC2D97165D003A5C76 /* TranslatorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F649575A2D98C60B00ECF9BB /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		F6F556072D948D13003A5C76 /* PetTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F5560A2D948D13003A5C76 /* PetTranslatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTranslatorApp.swift; sourceTree = "<group>"; };
+		F6F5560C2D948D13003A5C76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6F5560E2D948D15003A5C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F556112D948D15003A5C76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6F556192D94B8FF003A5C76 /* KonkhmerSleokchher-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KonkhmerSleokchher-Regular.ttf"; sourceTree = "<group>"; };
+		F6F5561B2D94B9B1003A5C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F6F5561C2D94BCB1003A5C76 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		F6F556A22D9534C6003A5C76 /* RecordingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingScreen.swift; sourceTree = "<group>"; };
+		F6F556A42D953856003A5C76 /* ProcessingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingScreen.swift; sourceTree = "<group>"; };
+		F6F556A62D9538A8003A5C76 /* CompletionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionScreen.swift; sourceTree = "<group>"; };
+		F6F556A82D9715BE003A5C76 /* ClickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerView.swift; sourceTree = "<group>"; };
+		F6F556AA2D971602003A5C76 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F6F556AC2D97165D003A5C76 /* TranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F556042D948D13003A5C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64957592D98C5E200ECF9BB /* DotLottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F555FE2D948D13003A5C76 = {
+			isa = PBXGroup;
+			children = (
+				F6F556092D948D13003A5C76 /* PetTranslator */,
+				F6F556082D948D13003A5C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F556082D948D13003A5C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F556072D948D13003A5C76 /* PetTranslator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F556092D948D13003A5C76 /* PetTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				F6F5560A2D948D13003A5C76 /* PetTranslatorApp.swift */,
+				F6F5560C2D948D13003A5C76 /* ContentView.swift */,
+				F6F556AC2D97165D003A5C76 /* TranslatorView.swift */,
+				F6F556A82D9715BE003A5C76 /* ClickerView.swift */,
+				F6F556AA2D971602003A5C76 /* TabBarView.swift */,
+				F6F556A22D9534C6003A5C76 /* RecordingScreen.swift */,
+				F6F556A42D953856003A5C76 /* ProcessingScreen.swift */,
+				F6F556A62D9538A8003A5C76 /* CompletionScreen.swift */,
+				F649575A2D98C60B00ECF9BB /* animation.json */,
+				F6F5560E2D948D15003A5C76 /* Assets.xcassets */,
+				F6F5561B2D94B9B1003A5C76 /* Info.plist */,
+				F6F556182D94B8AB003A5C76 /* Font */,
+				F6F556102D948D15003A5C76 /* Preview Content */,
+			);
+			path = PetTranslator;
+			sourceTree = "<group>";
+		};
+		F6F556102D948D15003A5C76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6F556112D948D15003A5C76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6F556182D94B8AB003A5C76 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F6F556192D94B8FF003A5C76 /* KonkhmerSleokchher-Regular.ttf */,
+				F6F5561C2D94BCB1003A5C76 /* CustomFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F556062D948D13003A5C76 /* PetTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F556152D948D15003A5C76 /* Build configuration list for PBXNativeTarget "PetTranslator" */;
+			buildPhases = (
+				F6F556032D948D13003A5C76 /* Sources */,
+				F6F556042D948D13003A5C76 /* Frameworks */,
+				F6F556052D948D13003A5C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetTranslator;
+			packageProductDependencies = (
+				F64957582D98C5E200ECF9BB /* DotLottie */,
+			);
+			productName = PetTranslator;
+			productReference = F6F556072D948D13003A5C76 /* PetTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F555FF2D948D13003A5C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F6F556062D948D13003A5C76 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F6F556022D948D13003A5C76 /* Build configuration list for PBXProject "PetTranslator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F555FE2D948D13003A5C76;
+			packageReferences = (
+				F64957572D98C5E200ECF9BB /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
+			productRefGroup = F6F556082D948D13003A5C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F556062D948D13003A5C76 /* PetTranslator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F556052D948D13003A5C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F556122D948D15003A5C76 /* Preview Assets.xcassets in Resources */,
+				F6F5561A2D94B8FF003A5C76 /* KonkhmerSleokchher-Regular.ttf in Resources */,
+				F6F5560F2D948D15003A5C76 /* Assets.xcassets in Resources */,
+				F649575B2D98C60B00ECF9BB /* animation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F556032D948D13003A5C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F5561D2D94BCB1003A5C76 /* CustomFont.swift in Sources */,
+				F6F5560D2D948D13003A5C76 /* ContentView.swift in Sources */,
+				F6F556AB2D971602003A5C76 /* TabBarView.swift in Sources */,
+				F6F556A52D953856003A5C76 /* ProcessingScreen.swift in Sources */,
+				F6F556AD2D97165D003A5C76 /* TranslatorView.swift in Sources */,
+				F6F556A92D9715BE003A5C76 /* ClickerView.swift in Sources */,
+				F6F556A32D9534C6003A5C76 /* RecordingScreen.swift in Sources */,
+				F6F5560B2D948D13003A5C76 /* PetTranslatorApp.swift in Sources */,
+				F6F556A72D9538A8003A5C76 /* CompletionScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6F556132D948D15003A5C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6F556142D948D15003A5C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F556162D948D15003A5C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetTranslator/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N24WA8RCJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetTranslator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"Pet Transletor\" is asking for permission to access your microphone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.PetTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6F556172D948D15003A5C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetTranslator/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N24WA8RCJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetTranslator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"Pet Transletor\" is asking for permission to access your microphone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.PetTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F556022D948D13003A5C76 /* Build configuration list for PBXProject "PetTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F556132D948D15003A5C76 /* Debug */,
+				F6F556142D948D15003A5C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F556152D948D15003A5C76 /* Build configuration list for PBXNativeTarget "PetTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F556162D948D15003A5C76 /* Debug */,
+				F6F556172D948D15003A5C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F64957572D98C5E200ECF9BB /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F64957582D98C5E200ECF9BB /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F64957572D98C5E200ECF9BB /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F6F555FF2D948D13003A5C76 /* Project object */;
+}
